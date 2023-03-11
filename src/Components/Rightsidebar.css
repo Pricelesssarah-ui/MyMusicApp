@@ -1,0 +1,101 @@
+.rightsidebar {
+    border: none;
+    height: 200vh;
+    flex: 0.3;
+    padding-left: 100px;
+    background: rgb(220, 224, 248)  ;
+    width: 100%;
+}
+
+.rightsidebar h2 {
+    margin-top: 30px;
+}
+.genre {
+    margin-top: 20px;
+}
+
+.genre button {
+    color: black;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.genre button:hover {
+    color: white;
+    background-color: black;
+}
+
+.genre-topline {
+    display: flex;
+
+}
+
+.genre-middleline {
+    display: flex;
+}
+
+.genre-downline {
+    display: flex;
+}
+
+
+
+.fave h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.list-artist {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.artist-img img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.artist-name {
+    width: 100%;
+}
+
+.list-artis, .dots {
+    font-weight: bolder;
+
+}
+
+
+
+
+
+.artist-photo {
+    width: 80%;
+    height: 25%;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.artist-photo img {
+    width: 16.5rem;
+    height: 15rem;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.artist-photo h5 {
+    margin-left: 10px;
+}
+
+.artist-photo p {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}

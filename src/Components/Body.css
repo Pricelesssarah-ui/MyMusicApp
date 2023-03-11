@@ -1,0 +1,98 @@
+.body {
+    border: none;
+    height: 200vh;
+    flex: 0.5;
+    height: 150vh;
+    color: black;
+    overflow-y: hidden;
+    padding: 20px;
+    background: rgb(220, 224, 248);
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.body-topText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-topTextRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-topTextRight > p {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.body-info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.body-infoText {
+    flex: 1;
+}
+
+.body-infoText > h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.body-infoText > p {
+    font-size: 14px;
+} 
+
+.body-info > img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.body-icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.body-shuffle {
+    font-size: 50px !important;
+}
+
+.body-shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.body-songs {
+    margin: 20px -30px;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .body-topTextRight {
+        display: none;
+    }
+
+    .body-infoText {
+        display: none;
+    }
+    
+}

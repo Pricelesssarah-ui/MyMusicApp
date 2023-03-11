@@ -1,0 +1,65 @@
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    height: 70px;
+    width: 90%;
+    background-color: #282828;
+    padding: 20px;
+}
+
+.footer-right * .MuiSlider-root {
+    color: rgb(124, 226, 124);
+}
+
+.footer-left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+
+.footer-albumcover {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.footer-green {
+    color: rgb(124, 226, 124);
+}
+
+.footer-songInfo > h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.footer-songInfo > p {
+    font-size: 12px;
+}
+
+.footer-center {
+    flex: 0.4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.footer-icon:hover, .footer-green {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.footer-right {
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}

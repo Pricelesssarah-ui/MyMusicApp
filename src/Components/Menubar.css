@@ -1,0 +1,52 @@
+.container-menu {
+    display: none;
+}
+
+.logo-img {
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+.container-list {
+    padding: 2rem 2rem 0 2rem;
+}
+
+ul, li {
+    padding-bottom: 28px;
+}
+
+.list-items {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: medium;
+    list-style: none;
+    color: black;
+}
+
+li p {
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    padding-top: 2rem;
+}
+
+
+@media (min-width: 768px) {
+    .container-menu {
+        display: flex;
+        flex: 0.3;
+        flex-direction: column;
+    }
+    
+}
